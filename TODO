@@ -1,0 +1,2 @@
+Figure out how $HOME/.python/pyenv/man got added to manpages
+    -Not seeing $HOME/.man-path , where is it pulling that directory from?
