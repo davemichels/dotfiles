@@ -32,6 +32,19 @@ if &term =~ '256color'
   colorscheme sidonia
 endif
 
+""" NERDTREE OPTIONS
+let NERDTreeCaseSensitiveSort = 1
+let NERDTreeIgnore = [
+    \'\.git$[[dir]]',
+    \'\.swp$[[file]]',
+\]
+let NERDTreeShowBookmarks = 1
+let NERDTreeShowHidden = 1
+let NERDTreeCascadeSingleChildDir = 0
+
+""" NERDTREE MAPPINGS
+nnoremap <Leader>t :NERDTreeToggle<Enter>
+
 " TODO
 " figure out timeout, ttimeout, timeoutlen, ttimeoutlen
 " ruler vs statusline?
