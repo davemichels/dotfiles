@@ -1,4 +1,4 @@
-""" OPTIONS
+""" VIM OPTIONS
 set noautoindent
 set expandtab
 set mouse=a
@@ -17,7 +17,7 @@ set splitright
 set tabstop=4
 set nowrap
 
-""" COLORSCHEME
+""" VIM COLORSCHEME
 " TODO Make this work right for light/dark and 8/16/256/24-bit color.
 " FIXME Do I need to test for actual 24-bit support here?
 if &term =~ '256color'
