@@ -17,6 +17,9 @@ set splitright
 set tabstop=4
 set nowrap
 
+""" VIM MAPPINGS
+let mapleader = " "
+
 """ VIM COLORSCHEME
 " TODO Make this work right for light/dark and 8/16/256/24-bit color.
 " FIXME Do I need to test for actual 24-bit support here?
